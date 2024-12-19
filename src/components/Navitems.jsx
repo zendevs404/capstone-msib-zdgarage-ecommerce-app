@@ -45,16 +45,16 @@ const Navitems = () => {
                     <div className='menu'>
                       <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/shop">Shop</Link></li>
+                        <li><Link to="/produk">Produk</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/tentangkami">Tentang Kami</Link></li>
+                        <li><Link to="/kontak">Kontak</Link></li>
                       </ul>
                     </div>
 
                     {/* auth */}
                     <Link to="sign-up" className='lab-btn me-3 d-none d-md-block'>Create Account</Link>
-                    <Link to="login" className='d-none d-md-block'>Create Account</Link>
+                    <Link to="login" className='d-none d-md-block'>Log in</Link>
 
                     {/* menu toggle */}
                     <div onClick={() => setMenuToggle(!menuToggle)} className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}>

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Home from './home/Home';
+import Produk from './produk/produk';
 
 import 'swiper/css';
 
@@ -21,6 +22,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import SingleProduk from './produk/SingleProduk.jsx';
+import CartPage from './produk/CartPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/produk",
+        element: <Produk />,
+      },
+      {
+        path: "/produk/:id",
+        element: <SingleProduk />,
+      },
+      {
+        path: "/cart-page",
+        element: <CartPage />,
       },
     ],
   },

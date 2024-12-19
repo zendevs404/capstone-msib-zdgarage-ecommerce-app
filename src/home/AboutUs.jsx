@@ -2,26 +2,26 @@ import React from "react";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
-const subTitle = "Wanna be Our Part?";
-const title = "Join the #ZDGarage Team";
-const desc = "Join our team and get 25% discound on every products!";
-const btnText = "Join Us";
+const subTitle = "Mau menjadi bagian dari kita?";
+const title = "Gabung #ZDGarage Team";
+const desc = "Gabung team kami dan dapatkan diskon 25% di setiap pembelian parts!";
+const btnText = "Gabung Sekarang";
 
 const countList = [
   {
     iconName: "icofont-users-alt-4",
-    count: "150",
-    text: "Partners",
+    count: "1000",
+    text: "Produk Terjual",
   },
   {
     iconName: "icofont-graduate-alt",
-    count: "200",
-    text: "Certified Employee Engineer",
+    count: "100",
+    text: "Tim Ahli",
   },
   {
-    iconName: "icofont-notification",
-    count: "300",
-    text: "Benefits",
+    iconName: "icofont-medal",
+    count: "5",
+    text: "Penghargaan Nasional",
   },
 ];
 
